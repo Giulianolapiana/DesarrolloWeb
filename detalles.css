@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* es para el desplsamiento suave */
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    color: orangered;
+    text-align: left;
+    font-size: 55px;
+    padding-left: 5%;
+}
+.barra{
+    float: right;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 5%;
+    /* para que tenga mayusculas */
+    text-transform:capitalize
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 5px;
+}
+/* es para cuando nos posicionemos cambie de color */
+.barra a:hover{
+    color: orangered;
+}
+
+header{
+    background-color: black;
+    min-height: 120px;
+    height: auto;
+}
+/* navbar con bootstrap */
+.navbar {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 10px;
+    /* para que tenga mayusculas */
+    text-transform:capitalize
+}
+.navbar a {
+    color: blanchedalmond !important;
+}
+/* es para cuando nos posicionemos cambie de color */
+.navbar a:hover{
+    color: orangered !important;
+}
+
+
+
+
+/* le estamos poniendo de fondo la imagen y centandola */
+main{
+    height: calc(100vh - 110px);
+    width: 100%;
+    background-color: gray;
+    background-image: url(pixabay/portada4.jpg);
+    background-size: cover;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fondo{
+    height: calc(100vh - 110px);
+    width: 100%;
+    background-color: gray;
+    background-size: cover;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Home */
+main p{
+    color: blanchedalmond;
+    background-color: gray;
+    border: 5px solid orangered;
+    margin: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+main h2{
+    margin: 30px;
+    padding: 10px;
+}
+/* nosotros */
+.sucursales{
+    text-align: center;
+}
+.sucursales iframe{
+    margin: 10px;
+    height: 350px;
+    width: 50%;
+}
+.sucursales h2{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+}
+/*  */
+
+/* fondo que se adapta al largo */
+.fondoautomatico{
+    height: auto;
+    background-color: gray;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* recomendaciones */
+/* cuadro de texto */
+.call{
+    width: 350px;
+    text-align: center;
+    border: 5px solid orangered;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(87, 86, 86, 0.979);
+}
+.call p{
+    padding: 10px;
+}
+h3{
+    color: orangered;
+}
+.img1{
+    height: auto;
+    width: 350px;
+/*     padding-left: 50px; */
+}
+#espacio{
+    padding-top: 30px;
+    background-color: grey;
+}
+/* servicios */
+.video1{
+    height: auto;
+    width: 350px;
+}
+/* contacto */
+/* formulario */
+form{
+    margin: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+form input,
+form textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.btnform{
+    background-color: rgba(87, 86, 86, 0.979);
+    color: black;
+    font-weight: bold;
+}
+/*  */
+footer{
+    background-color: black;
+    width: 100%;
+    color: blanchedalmond;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:capitalize 
+}
+.alinearhorizontalmente{
+    /* use el flex ya que no pude ponerlos en linea */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    letter-spacing: 5px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+
+
+.subir{
+    background-color: orangered;
+    color: blanchedalmond;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    /* es para redondear el boton */
+    border-radius: 50%;
+    /* box shadow para dar sombra */
+}
+
+h2{
+    color: orangered;
+    background-color: rgba(87, 86, 86, 0.979);
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:capitalize 
+}
