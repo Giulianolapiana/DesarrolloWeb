@@ -192,7 +192,7 @@ form textarea{
     color: black;
     font-weight: bold;
 }
-/*  */
+/* footer */
 footer{
     background-color: black;
     width: 100%;
@@ -208,6 +208,9 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+.celulares{
+    text-align: center;
+}
 
 footer p{
     letter-spacing: 2px;
@@ -215,6 +218,7 @@ footer p{
 h5{
     font-size: 10px;
 }
+
 .redes a{
     text-decoration: none;
     color: orangered;
