@@ -21,23 +21,6 @@ header h1{
     padding: 0;
     display: inline-block;
 }
-.barra{
-    float: right;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-right: 5%;
-    /* para que tenga mayusculas */
-    text-transform:capitalize
-}
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-}
-.barra a{
-    text-decoration: none;
-    color: blanchedalmond;
-    padding: 5px;
-}
 /* es para cuando nos posicionemos cambie de color */
 .barra a:hover{
     color: orangered;
