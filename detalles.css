@@ -93,8 +93,8 @@ main h2{
 }
 .sucursales iframe{
     margin: 10px;
-    height: 350px;
-    width: 50%;
+    height: 420px;
+    width: 65%;
 }
 .sucursales h2{
     border: 2px solid black;
@@ -237,15 +237,21 @@ h2{
 
 /* para modificar los elementos despues de un cierto tamaño */
 /* inicio de las media queries */
-/* @media only screen and (min-width: 480px){
-    
-
+@media only screen and (max-width: 600px){
+    .sucursales iframe{
+        width: 80%;
+        height: 350px;
+    }
 }
 
 @media only screen and (min-width: 800px) and (max-width:1099px){
-
+    .sucursales iframe{
+        height: 500px;
+    }
 }
 
 @media only screen and (min-width: 1100px){
-
-} */
+    .sucursales iframe{
+        height: 600px;
+    }
+} 
