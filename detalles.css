@@ -93,7 +93,7 @@ main h2{
 }
 .sucursales iframe{
     margin: 10px;
-    height: 420px;
+    height: 400px;
     width: 65%;
 }
 .sucursales h2{
@@ -246,12 +246,12 @@ h2{
 
 @media only screen and (min-width: 800px) and (max-width:1099px){
     .sucursales iframe{
-        height: 500px;
+        height: 400px;
     }
 }
 
 @media only screen and (min-width: 1100px){
     .sucursales iframe{
-        height: 600px;
+        height: 450px;
     }
 } 
