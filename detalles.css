@@ -142,6 +142,19 @@ h3{
     padding-top: 30px;
     background-color: grey;
 }
+.masinfo a{
+    position:relative;
+    left: 40%;
+}
+.masinfo a:hover{
+    color: orangered ;
+    background-color:beige;
+    font-size: 20px;
+}
+.masinfo a:nth-child(1){
+    height: 1px;
+    left: -100%;
+}
 /* servicios */
 .video1{
     height: auto;
@@ -225,6 +238,9 @@ h5{
     border-radius: 50%;
     /* box shadow para dar sombra */
 }
+.subir:hover{
+    color: black;
+}
 
 h2{
     color: orangered;
@@ -242,16 +258,43 @@ h2{
         width: 80%;
         height: 350px;
     }
+    .carousel-item img{
+        height: 300px;
+    }
+    .carousel-item h3{
+        color: rgba(240, 248, 255, 0.822);
+    }
+}
+@media only screen and (min-width: 600px) and (max-width:768px){
+    .carousel-item h3{
+        color: rgba(240, 248, 255, 0.822);
+    }
+    .carousel-item img{
+        height: 450px;
+    }
 }
 
-@media only screen and (min-width: 800px) and (max-width:1099px){
+@media only screen and (min-width: 768px) and (max-width:1099px){
     .sucursales iframe{
         height: 400px;
     }
+    .carousel-item h3{
+        color: rgba(240, 248, 255, 0.822);
+    }
+    .carousel-item img{
+        height: 300px;
+    }
+    
 }
 
 @media only screen and (min-width: 1100px){
     .sucursales iframe{
         height: 450px;
+    }
+    .carousel-item img{
+        height: 400px;
+    }
+    .carousel-item h3{
+        color: rgba(240, 248, 255, 0.822);
     }
 } 
