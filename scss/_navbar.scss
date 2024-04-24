@@ -1,0 +1,20 @@
+/* navbar con bootstrap */
+
+.navbar {
+    padding: 0;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 10px;
+
+    /* para que tenga mayusculas */
+    text-transform: capitalize;
+
+    a {
+        color: blanchedalmond !important;
+        /* es para cuando nos posicionemos cambie de color */
+        /* es para cuando nos posicionemos cambie de color */        
+        &:hover {
+            color: orangered !important;
+        }
+    }
+}

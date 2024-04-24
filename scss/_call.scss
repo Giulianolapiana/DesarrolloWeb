@@ -1,0 +1,36 @@
+/* recomendaciones */
+/* cuadro de texto */
+
+.call {
+    width: 350px;
+    text-align: center;
+    border: 5px solid orangered;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(87, 86, 86, 0.979);
+
+    p {
+        padding: 10px;
+    }
+}
+
+#espacio {
+    padding-top: 30px;
+    background-color: grey;
+}
+
+.masinfo a {
+    position: relative;
+    left: 40%;
+
+    &:hover {
+        color: orangered;
+        background-color: beige;
+        font-size: 20px;
+    }
+
+    &:nth-child(1) {
+        height: 1px;
+        left: -100%;
+    }
+}

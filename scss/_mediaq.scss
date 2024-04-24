@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px) {
+    .sucursales iframe {
+        width: 80%;
+        height: 350px;
+    }
+
+    .carousel-item {
+        img {
+            height: 300px;
+        }
+
+        h3 {
+            color: rgba(240, 248, 255, 0.822);
+        }
+    }
+
+    form {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .carousel-item {
+        h3 {
+            color: rgba(240, 248, 255, 0.822);
+        }
+
+        img {
+            height: 450px;
+        }
+    }
+
+    form {
+        margin: 30px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+    .sucursales iframe {
+        height: 400px;
+    }
+
+    .carousel-item {
+        h3 {
+            color: rgba(240, 248, 255, 0.822);
+        }
+
+        img {
+            height: 300px;
+        }
+    }
+
+    form {
+        margin: 30px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .sucursales iframe {
+        height: 450px;
+    }
+
+    .carousel-item {
+        img {
+            height: 400px;
+        }
+
+        h3 {
+            color: rgba(240, 248, 255, 0.822);
+        }
+    }
+}

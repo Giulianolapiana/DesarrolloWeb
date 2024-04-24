@@ -1,0 +1,24 @@
+/* es para el desplsamiento suave */
+/* flecha para que suba el documento */
+html {
+    scroll-behavior: smooth;
+}
+
+.subir {
+    background-color: orangered;
+    color: blanchedalmond;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    /* es para redondear el boton */
+    border-radius: 50%;
+    /* box shadow para dar sombra */
+    &:hover {
+        color: black;
+    }
+}

@@ -1,0 +1,39 @@
+/* le estamos poniendo de fondo la imagen y centandola */
+
+main {
+    min-height: calc(100vh - 110px);
+    height: auto;
+    width: 100%;
+    background-color: gray;
+    background-image: url(pixabay/portada4.jpg);
+    background-size: cover;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Home */
+
+.home {
+
+    .col-md-5,
+    .col-md-11 {
+        background-color: rgba(128, 128, 128, 0.842);
+        border-radius: 5px;
+        border: solid 2px orangered;
+    }
+}
+
+main {
+    p {
+        color: beige;
+        text-align: center;
+        padding: 10px;
+    }
+
+    h2 {
+        padding: 8px;
+        background-color: rgba(128, 128, 128, 0.178);
+        color: black;
+        text-decoration: underline orangered;
+    }
+}

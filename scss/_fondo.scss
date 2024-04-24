@@ -1,0 +1,22 @@
+.fondo {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    background-size: cover;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*  */
+/* fondo que se adapta al largo */
+
+.fondoautomatico {
+    height: auto;
+    background-color: gray;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
