@@ -40,6 +40,9 @@ h3 {
 .jumbotron {
   height: 45px;
 }
+.jumbotron h2 {
+  background-image: linear-gradient(black, gray 85%, black);
+}
 
 /* nosotros */
 .sucursales {
@@ -54,6 +57,10 @@ h3 {
   border: 2px solid black;
   padding: 10px;
   margin: 30px;
+}
+
+h5 {
+  font-size: 10px;
 }
 
 * {
@@ -86,6 +93,7 @@ h3 {
   left: 40%;
 }
 .masinfo a:hover {
+  transition: 1.2s;
   color: orangered;
   background-color: beige;
   font-size: 20px;
@@ -205,9 +213,14 @@ main h2 {
   justify-content: space-around;
 }
 
+#fondogrande {
+  width: 95%;
+}
+
 /* footer */
 footer {
-  background-color: black;
+  background-image: linear-gradient(grey, black 90%);
+  /* background-color: black; */
   width: 100%;
   color: blanchedalmond;
   font-size: 20px;
@@ -231,15 +244,14 @@ footer p {
   letter-spacing: 2px;
 }
 
-h5 {
-  font-size: 10px;
-}
-
 .redes a {
   text-decoration: none;
   color: orangered;
   font-size: 25px;
   letter-spacing: 15px;
+}
+.redes a :hover {
+  color: rgba(216, 27, 27, 0.877);
 }
 
 /* es para el desplsamiento suave */

@@ -21,6 +21,9 @@ h3 {
 
 .jumbotron {
     height: 45px;
+    h2{
+        background-image: linear-gradient(black,gray 85%,black);
+    }
 }
 
 /* nosotros */
@@ -39,4 +42,8 @@ h3 {
         padding: 10px;
         margin: 30px;
     }
+}
+
+h5 {
+    font-size: 10px;
 }
